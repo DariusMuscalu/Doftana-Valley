@@ -50,6 +50,8 @@ header p {
 nav {
     background-color: hsl(118, 50%, 20%);
     font-size: 1.3rem;
+    position: sticky;
+    top: 0;
 }
 
 #logo {
@@ -88,6 +90,7 @@ nav ul li:hover {
 /* About Section */ 
 #about {
     background-color: hsl(30, 50%, 50%);
+    display: none;
 }
 
 #about .flexbox-container {
@@ -139,15 +142,16 @@ nav ul li:hover {
 
 /* Cazare Secion */
 #cazare {
-    background-color: #222;
+    background-color: #EAAE06;
     color: #fff;
     text-align: center;
+    padding-bottom: 5rem;
 }
 
 #cazare h2 {
     padding: 2rem;
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 700;
 }
 
 #cazare h3 {
@@ -159,6 +163,7 @@ nav ul li:hover {
 #cazare p {
     margin-top: 2rem;
     padding: 1rem;
+    font-size: 1.2rem;
 }
 
 #cazare .flexbox-container {
@@ -166,7 +171,7 @@ nav ul li:hover {
 }
 
 #cazare .flexbox-container .flexbox-item {
-    background-color: #333;
+    background-color: #23286B;
     width: 50%;
     margin: 1.5rem;
     padding-bottom: 2rem;
@@ -175,6 +180,7 @@ nav ul li:hover {
 #cazare .flexbox-container .flexbox-item i {
     font-size: 1.7rem;
     margin: 0.5rem;
+    color: #EAAE06;
 }
 
 #cazare .flexbox-container .flexbox-item img {
@@ -196,3 +202,147 @@ nav ul li:hover {
 #cazare .flexbox-container .flexbox-item .button {
     margin-top: 2rem;
 }
+
+/* Program Section */
+#program {
+    background-color: #ccc;
+    color: #fff;
+}
+
+#program h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+#program table {
+    background-image: linear-gradient(to bottom, #EAAE06, #23286B);
+}
+
+#program table th {
+    padding: 2rem;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#program table td {
+    border: 1px double #000;
+    border-collapse: collapse;
+}
+
+#program table .combined {
+    border-top: 1px solid #000;
+    border-bottom: none;
+}
+
+#program table .no-border {
+    border: none;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.flex-container {
+    background: #fff;
+    display: flex;
+}
+
+.flex-container .item-1 table {
+    width: 100%;
+}
+
+.flex-container .item-1 {
+    width: 50%;
+}
+
+.flex-container .item-2 {
+    background-image: url('./img/lady-employee-doing-video-meeting-2194238-0.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+/* Contact Section */
+#contact {
+    font-size: 1.6rem;
+}
+
+#contact .flexbox-container {
+    display: flex;
+}
+
+#contact .flexbox-container .flexbox-item {
+    width: 50%;
+}
+
+#contact .flexbox-container .item-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#contact .flexbox-container .item-2 {
+    background-color: #23286B;
+    color: #fff;
+}
+
+#contact .flexbox-container .item-2 h2 {
+    margin: 1.5rem;
+    font-size: 1.9rem;
+}
+
+#contact .flexbox-container .item-2 label {
+    margin-left: 1.5rem;
+}
+
+#contact .flexbox-container .item-2 input {
+    padding: 1rem 0;
+    padding-left: 0.5rem;
+    margin: 1.5rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+#contact .flexbox-container .item-2 button {
+    padding: 1rem 4rem;
+    width: 50%;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #1B4D19;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#contact .flexbox-container .item-2 button:hover {
+    background-color: #0F8A24;
+}
+
+/* Footer */
+.upper-footer {
+    background-color: hsl(118, 50%, 20%);
+    color: #fff;
+    padding: 4rem;
+}
+
+.upper-footer .flexbox-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.bottom-footer {
+    text-align: center;
+    padding: 0.75rem;
+}
+
+.bottom-footer a {
+    color: #000;
+    text-decoration: underline;
+    padding-left: 0.5rem;
+}
+
+
