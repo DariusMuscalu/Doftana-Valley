@@ -137,4 +137,5 @@ header .btn {
 
 .upper-footer .top {
     display: none;
+    opacity: 0;
 }
