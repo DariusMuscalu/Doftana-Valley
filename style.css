@@ -26,8 +26,8 @@ a {
     transition-property: all;
     transition: ease;
     transition-delay: 0.2s;
-    background-color: #000;
-    opacity: 0.7;
+    background-color: #333;
+    opacity: 0.9;
 }
 
 /* Header */
@@ -54,6 +54,36 @@ header p {
     text-align: center;
 }
 
+header i {
+    visibility: hidden;
+    width: 100%;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#stuff {
+    opacity: 0.0;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    background-image: url('./img/Union.svg');
+    background-size: contain;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+    display: block;
+    margin: 3rem auto;
+    width: 100%;
+}
+
+#hover:hover + #stuff {
+    opacity: 1.0;
+}
 /* Navigation */
 nav {
     background-color: hsl(118, 50%, 20%);
@@ -389,5 +419,6 @@ nav ul li:hover {
     text-decoration: underline;
     padding-left: 0.5rem;
 }
+
 
 

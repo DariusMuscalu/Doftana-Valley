@@ -8,6 +8,10 @@
     padding: 1rem;
     font-size: 1.5rem;
 }
+
+nav {
+    position: relative;
+}
    
 nav ul {
     flex-direction: column;
@@ -41,6 +45,10 @@ header h1 {
 
 header .btn {
     width: 30%;
+}
+
+header #stuff {
+    opacity: 1;
 }
 
 /* About Section */

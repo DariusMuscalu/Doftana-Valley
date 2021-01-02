@@ -1,0 +1,63 @@
+/* Navigation Section */
+#logo {
+    font-size: 1.5rem;
+    top: 1.6rem;
+}
+
+/* Header Section */
+header {
+    background-position: center;
+}
+
+.btn {
+    width: 20%;
+}
+
+/* About Section */
+#about .flexbox-container {
+    background-image: none;
+}
+
+#about .flexbox-container .flexbox-item-1 {
+    margin: 0;
+    width: 50%;
+    padding: 6rem 1rem;
+}
+
+#about .flexbox-container .flexbox-item-2 {
+    width: 100%;
+    height: 55vh;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 1rem;
+}
+
+/* Cazare Section */
+#cazare .flexbox-container {
+    flex-direction: column;
+}
+
+#cazare .flexbox-container .flexbox-item {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+/* Program Section */
+.flex-container .item-1 {
+    width: 70%;
+}
+
+.flex-container .item-2 {
+    width: 70%;
+    background-position: center;
+}
+
+/* Contact Section */
+#contact .flexbox-container .flexbox-item {
+    width: 100%;
+}
+
+#contact .flexbox-container .item-2 input {
+    margin: 0.7rem;
+}
