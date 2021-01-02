@@ -1,0 +1,140 @@
+/* Navigation */
+#logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+   
+nav ul {
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0.5rem;
+}
+
+nav i {
+    position: absolute;
+    top: 1.3rem;
+    right: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Header Section */
+header {
+    background-position: top;
+    height: 120vh;
+}
+
+header h1 {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header .btn {
+    width: 30%;
+}
+
+/* About Section */
+#about .flexbox-container {
+    flex-direction: column;
+    justify-content: center;
+    background-image: none;
+}
+
+#about .flexbox-container .flexbox-item-1 {
+    margin: 0;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#about .flexbox-container .flexbox-item-1 p {
+    margin: 0;
+    padding: 1rem;
+}
+
+#about .flexbox-container .flexbox-item-2 {
+    width: 100%;
+    height: 400px;
+    border-radius: 0;
+    margin: 0;
+}
+
+/* Cazare Section */
+#cazare .flexbox-container {
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+#cazare .flexbox-container .flexbox-item {
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+/* Program Section */
+.flex-container {
+    flex-direction: column-reverse;
+}
+
+.flex-container .item-1 {
+    width: 100%;
+}
+
+.flex-container .item-2 {
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Contact Section */
+#contact .flexbox-container {
+    flex-direction: column;
+}
+
+#contact .flexbox-container .flexbox-item {
+    width: 100%;
+}
+
+#contact .flexbox-container .item-2 input {
+    display: block;
+    margin: auto;
+}
+
+#contact .flexbox-container .item-2 button {
+    width: 80%;
+}
+
+/* Footer */
+.upper-footer {
+    padding: 0;
+}
+
+.upper-footer .flexbox-container {
+    flex-direction: column;
+}
+
+.upper-footer .flexbox-container .flexbox-item-1 {
+    padding: 0;
+}
+
+.upper-footer .flexbox-container .flexbox-item-2 {
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.upper-footer .flexbox-container i {
+    padding: 1rem 1.5rem;
+}
+
+.upper-footer .top {
+    display: none;
+}

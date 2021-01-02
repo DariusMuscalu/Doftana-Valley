@@ -22,6 +22,14 @@ a {
     border: 2px solid #ccc;
 }
 
+.btn:hover {
+    transition-property: all;
+    transition: ease;
+    transition-delay: 0.2s;
+    background-color: #000;
+    opacity: 0.7;
+}
+
 /* Header */
 header {
     height: 100vh;
@@ -90,7 +98,6 @@ nav ul li:hover {
 /* About Section */ 
 #about {
     background-color: hsl(30, 50%, 50%);
-    display: none;
 }
 
 #about .flexbox-container {
@@ -99,13 +106,13 @@ nav ul li:hover {
     background-image: url('/img/clip-message-sent.svg');
     background-size: 700px;
     background-repeat: no-repeat;
-    background-position-y: 600px;
+    background-position-y: 80%;
 }
 
 #about .flexbox-container .flexbox-item-1 {
     margin-left: 10%;
-    margin-right: -10%;
-    width: 110%;
+    margin-right: 1rem;
+    width: 40%;
     padding-top: 5rem;
     font-size: 1.2rem;
     background-image: url('/img/quote.svg');
@@ -122,23 +129,16 @@ nav ul li:hover {
 }
 
 #about .flexbox-container .flexbox-item-2 {
-    background-image: url('/img/location.svg');
+    background-image: url('/img/RO_PH_Valea_Doftanei_sign.jpg');
     background-repeat: no-repeat;
-    background-size: 75px;
-    background-position-x: 90px;
-    background-position-y: -7px;
-    margin-top: 28rem;
-    margin-left: 6rem;
+    background-size: cover;
+    width: 60%;
+    height: 700px;
+    border-radius: 40%;
+    margin: 3rem 0;
+    margin-right: 4rem;
 }
 
-#about .flexbox-container .flexbox-item-2 img {
-    width: 85%;
-    height: 600px;
-    border-radius: 70px;
-    padding: 3rem;
-    margin-top: 1rem;
-    margin-left: 3rem;
-}
 
 /* Cazare Secion */
 #cazare {
@@ -327,11 +327,56 @@ nav ul li:hover {
     padding: 4rem;
 }
 
-.upper-footer .flexbox-container ul {
+.upper-footer .flexbox-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.upper-footer .flexbox-container ul {
     list-style: none;
+}
+
+.upper-footer .flexbox-container a:hover {
+    text-decoration: underline;
+}
+
+.upper-footer .flexbox-container li {
+    padding: 1rem 2rem;
+}
+
+.upper-footer .flexbox-container i {
+    font-size: 2rem;
+    color: #23286B;
+    padding: 1rem;
+}
+
+.upper-footer .flexbox-container i:hover {
+    color: #EAAE06;
+    cursor: pointer;
+}
+
+.upper-footer .top {
+    background-color: #FFF;
+    position: absolute;
+    right: 1rem;
+    border-radius: 10px;
+}
+
+.upper-footer .top:hover {
+    background-color: antiquewhite;
+}
+
+.upper-footer .flexbox-container .flexbox-item-1 {
+    padding: 0 2rem;
+}
+
+.upper-footer .flexbox-container .flexbox-item-2 {
+    padding: 0 2rem;
+}
+
+.upper-footer .flexbox-container .row-1, .row-2 {
+    display: flex;
+    align-items: center;
 }
 
 .bottom-footer {
